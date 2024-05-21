@@ -1,0 +1,54 @@
+/* .flexBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexBoxItem {
+    width: 30%;
+} */
+.body {
+    margin: 10;
+}
+
+.grid {
+    border: 5px rgb(80,80,80) solid;
+}
+.gridThree {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+}
+.gridTwo {
+    display: grid;
+    grid-template-columns: 34% 66%;
+}
+.gridBox {
+    display: flex;
+    border: 5px rgb(80,80,80) solid;
+
+    height: 250px;
+    align-items: center;
+    text-align: center;
+
+    /* margin: auto; */
+
+}
+.boxText {
+    margin: auto;
+}
+
+.blue {
+    background-color: blue;
+
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: chartreuse;
+}
+.red {
+    background-color: red;
+}
+.pink {
+    background-color: magenta;
+}
